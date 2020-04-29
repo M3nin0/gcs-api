@@ -1,7 +1,4 @@
-import (
-    os, temp, urllib, shutil, requests, tqdm,
-    warnings, tenacity, psycopg2
-)
+import os, temp, urllib, shutil, requests, tqdm, warnings, tenacity, psycopg2
 
 from psycopg2.extensions import connection
 from urls import GOOGLE_INDEX_SENTINEL_L2, GOOGLE_INDEX_LANDSAT
@@ -56,7 +53,7 @@ def __remove_firstline_in_file(file: str) -> str:
         str: Caminho completo onde o arquivo criado será salvo
     """
 
-    ofile = open(file, 'r'):
+    ofile = open(file, 'r')
     ofile.readline()
     return ofile
 
