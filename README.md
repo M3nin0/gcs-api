@@ -21,7 +21,7 @@ A ferramenta está dividida em duas partes:
 http://127.0.0.1:5000/api/images/sentinel/rangesearch?time=2019-11-01/2019-11-20&bbox=-0.489,51.28,0.236,51.686
 ```
 
-* Imagens em um retângulo envolvente dentro de um intervalo de tempo (Landast)
+* Imagens em um retângulo envolvente dentro de um intervalo de tempo (Landsat)
 
 ```shell
 http://127.0.0.1:5000/api/images/landsat/rangesearch?time=2019-11-01/2019-11-20&bbox=-0.489,51.28,0.236,51.686&platform=LANDSAT_8
