@@ -1,0 +1,6 @@
+psycopg2==2.8.4
+tqdm==4.36.1
+Flask==1.1.1
+tenacity==6.1.0
+requests==2.22.0
+pandas==0.25.1
