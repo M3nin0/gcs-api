@@ -56,9 +56,9 @@ def __remove_firstline_in_file(file: str) -> str:
         str: Caminho completo onde o arquivo criado será salvo
     """
 
-    with open(file, 'r') as ofile:
-        ofile.readline()
-        return ofile
+    ofile = open(file, 'r'):
+    ofile.readline()
+    return ofile
 
 
 @tenacity.retry(stop=tenacity.stop_after_attempt(7), wait=tenacity.wait_fixed(5))
